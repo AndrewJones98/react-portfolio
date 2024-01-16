@@ -10,7 +10,7 @@
     }
 
     h1 {
-        color: #fff;
+        color: #e8e1db;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -24,5 +24,28 @@
         font-size: 20px;
         letter-spacing: 6px;
         animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #cb6137;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #cb6137;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #cb6137;
+            color: #333;
+
+        }
+
+
     }
 }
