@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './index.scss';
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters';
+import Bgimage from './Bgimage';
 
 
 const Home = () => {
@@ -36,7 +37,7 @@ const Home = () => {
                     PROJECTS
                 </Link>
             </div>
-
+            <Bgimage/>
         </div>
     )
 }
